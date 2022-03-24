@@ -1020,8 +1020,7 @@
       }
     }
 
-    @include respond(tablet)
-    {
+    @include respond(tablet) {
       // border: 1px solid red;
       height: 800px;
       display: grid;
@@ -1097,12 +1096,9 @@
           }
         }
       }
-      
     }
 
-
-    @include respond(Ipads)
-    {
+    @include respond(Ipads) {
       // border: 1px solid red;
       height: 500px;
       display: grid;
@@ -1124,7 +1120,7 @@
         > section {
           // border: 1px solid rgb(0, 102, 255);
           display: grid;
-      //     grid-template-columns: [] 20% [] 80%;
+          //     grid-template-columns: [] 20% [] 80%;
           grid-template-columns: [] 30% [] 70%;
           // align-items: center;
           > :nth-child(1) {
@@ -1151,7 +1147,6 @@
             :nth-child(1) {
               font-size: 15px;
               font-weight: 800;
-              
             }
             :nth-child(2) {
               color: $color_dark;
@@ -1176,7 +1171,6 @@
             p {
               margin: 0;
               line-height: 25px;
-
             }
             :nth-child(1) {
               font-size: 15px;
@@ -1188,6 +1182,274 @@
           }
         }
       }
+    }
+
+    @include respond(Laptops)
+    {
+
+      // border: 1px solid red;
+      height: 500px;
+      display: grid;
+      grid-template-rows: [] 30% [] 70%;
+      > p {
+        color: $color_dark;
+        width: 100%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+      }
+
+      > div {
+        display: grid;
+        grid-template-columns: [] 50% [] 50%;
+        // border: 1px solid rgb(0, 38, 255);
+
+        > section {
+          // border: 1px solid rgb(0, 102, 255);
+          display: grid;
+          //     grid-template-columns: [] 20% [] 80%;
+          grid-template-columns: [] 30% [] 70%;
+          // align-items: center;
+          > :nth-child(1) {
+            display: grid;
+            align-items: flex-start;
+            justify-content: center;
+            color: $color_green;
+            font-size: x-large;
+            text-transform: capitalize;
+          }
+          > :nth-child(2) {
+            display: grid;
+            align-items: flex-start;
+            grid-template-rows: [] 20% [] 80%;
+            color: $color_dark;
+            font-size: 12px;
+            // border: 1px solid red;
+            text-transform: capitalize;
+
+            p {
+              margin: 0;
+              line-height: 25px;
+            }
+            :nth-child(1) {
+              font-size: 15px;
+              font-weight: 800;
+            }
+            :nth-child(2) {
+              color: $color_dark;
+            }
+          }
+
+          :nth-child(3) {
+            display: grid;
+            align-items: flex-start;
+            justify-content: center;
+            color: $color_green;
+            font-size: x-large;
+          }
+          :nth-child(4) {
+            display: grid;
+            align-items: flex-start;
+            grid-template-rows: [] 20% [] 80%;
+            // color: red;
+            font-size: 12px;
+            text-transform: capitalize;
+
+            p {
+              margin: 0;
+              line-height: 25px;
+            }
+            :nth-child(1) {
+              font-size: 15px;
+              font-weight: 800;
+            }
+            :nth-child(2) {
+              color: $color_dark;
+            }
+          }
+        }
+      }
+
+    }
+
+    @include respond(Large_screens)
+    {
+
+      // border: 1px solid red;
+      height: 500px;
+      display: grid;
+      grid-template-rows: [] 30% [] 70%;
+      > p {
+        color: $color_dark;
+        width: 100%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+      }
+
+      > div {
+        display: grid;
+        grid-template-columns: [] 50% [] 50%;
+        // border: 1px solid rgb(0, 38, 255);
+
+        > section {
+          // border: 1px solid rgb(0, 102, 255);
+          display: grid;
+          //     grid-template-columns: [] 20% [] 80%;
+          grid-template-columns: [] 30% [] 70%;
+          // align-items: center;
+          > :nth-child(1) {
+            display: grid;
+            align-items: flex-start;
+            justify-content: center;
+            color: $color_green;
+            font-size: x-large;
+            text-transform: capitalize;
+          }
+          > :nth-child(2) {
+            display: grid;
+            align-items: flex-start;
+            grid-template-rows: [] 20% [] 80%;
+            color: $color_dark;
+            font-size: 12px;
+            // border: 1px solid red;
+            text-transform: capitalize;
+
+            p {
+              margin: 0;
+              line-height: 25px;
+            }
+            :nth-child(1) {
+              font-size: 15px;
+              font-weight: 800;
+            }
+            :nth-child(2) {
+              color: $color_dark;
+            }
+          }
+
+          :nth-child(3) {
+            display: grid;
+            align-items: flex-start;
+            justify-content: center;
+            color: $color_green;
+            font-size: x-large;
+          }
+          :nth-child(4) {
+            display: grid;
+            align-items: flex-start;
+            grid-template-rows: [] 20% [] 80%;
+            // color: red;
+            font-size: 12px;
+            text-transform: capitalize;
+
+            p {
+              margin: 0;
+              line-height: 25px;
+            }
+            :nth-child(1) {
+              font-size: 15px;
+              font-weight: 800;
+            }
+            :nth-child(2) {
+              color: $color_dark;
+            }
+          }
+        }
+      }
+
+    }
+
+
+    @include respond(Laptops)
+    {
+
+      // border: 1px solid red;
+      height: 500px;
+      display: grid;
+      grid-template-rows: [] 30% [] 70%;
+      > p {
+        color: $color_dark;
+        width: 100%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+      }
+
+      > div {
+        display: grid;
+        grid-template-columns: [] 50% [] 50%;
+        // border: 1px solid rgb(0, 38, 255);
+
+        > section {
+          // border: 1px solid rgb(0, 102, 255);
+          display: grid;
+          //     grid-template-columns: [] 20% [] 80%;
+          grid-template-columns: [] 30% [] 70%;
+          // align-items: center;
+          > :nth-child(1) {
+            display: grid;
+            align-items: flex-start;
+            justify-content: center;
+            color: $color_green;
+            font-size: x-large;
+            text-transform: capitalize;
+          }
+          > :nth-child(2) {
+            display: grid;
+            align-items: flex-start;
+            grid-template-rows: [] 20% [] 80%;
+            color: $color_dark;
+            font-size: 12px;
+            // border: 1px solid red;
+            text-transform: capitalize;
+
+            p {
+              margin: 0;
+              line-height: 25px;
+            }
+            :nth-child(1) {
+              font-size: 15px;
+              font-weight: 800;
+            }
+            :nth-child(2) {
+              color: $color_dark;
+            }
+          }
+
+          :nth-child(3) {
+            display: grid;
+            align-items: flex-start;
+            justify-content: center;
+            color: $color_green;
+            font-size: x-large;
+          }
+          :nth-child(4) {
+            display: grid;
+            align-items: flex-start;
+            grid-template-rows: [] 20% [] 80%;
+            // color: red;
+            font-size: 12px;
+            text-transform: capitalize;
+
+            p {
+              margin: 0;
+              line-height: 25px;
+            }
+            :nth-child(1) {
+              font-size: 15px;
+              font-weight: 800;
+            }
+            :nth-child(2) {
+              color: $color_dark;
+            }
+          }
+        }
+      }
+
     }
   }
 }
