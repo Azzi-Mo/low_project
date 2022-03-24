@@ -1,0 +1,50 @@
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+$color_page: #f6f6f6;
+$color-white: #ffffff;
+$color_green: #10cab7;
+$color_dark: #2c4755;
+$color_dark_gry :#2c4755db; 
+$color_footer: #2c4755;
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == mobile {
+    @media only screen and (max-width: 480px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == tablet {
+    @media (min-width: 481px) and (max-width: 767px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == Ipads {
+    @media (min-width: 768px) and (max-width: 1024px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == Laptops {
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == Large_screens {
+    @media only screen and (min-width: 1281px) {
+      @content;
+    }
+  }
+
+  
+  @if $breakpoint == All_screen {
+    @media only screen and (max-width: 2000px) {
+      @content;
+    }
+  }
+
+}
