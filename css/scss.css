@@ -1542,11 +1542,11 @@
   }
 }
 .cont .proj_photo {
-  height: 1500px;
   background: #fafafa;
 }
 @media only screen and (max-width: 480px) {
   .cont .proj_photo {
+    height: 1500px;
     display: -ms-grid;
     display: grid;
     -ms-grid-rows: 15% 85%;
@@ -1614,8 +1614,337 @@
     margin: 0;
     font-size: 15px;
   }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) :nth-child(2) :nth-child(1) {
+    font-size: 13px;
+    font-weight: 600;
+  }
   .cont .proj_photo > :nth-child(2) section > :nth-child(1) :nth-child(2) :nth-child(2) {
-    font-size: 10px;
+    font-size: 11px;
+    line-height: 13px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .cont .proj_photo {
+    height: 1500px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 15% 85%;
+    grid-template-rows: 15% 85%;
+  }
+  .cont .proj_photo > :nth-child(1) > p {
+    position: relative;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .cont .proj_photo > :nth-child(2) {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cont .proj_photo > :nth-child(2) section {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+    height: 100%;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) {
+    height: 90%;
+    width: 90%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 75% 25%;
+    grid-template-rows: 75% 25%;
+    background: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) > .proj_im1 {
+    background-image: url("/img/im1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) > .proj_im2 {
+    background-image: url("/img/im2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) > .proj_im3 {
+    background-image: url("/img/im3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) :nth-child(2) {
+    padding: 5px;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) :nth-child(2) > p {
+    margin: 0;
+    font-size: 15px;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) :nth-child(2) :nth-child(1) {
+    font-size: 14px;
+    font-weight: 800;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) :nth-child(2) :nth-child(2) {
+    font-size: 12px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cont .proj_photo {
+    height: 1500px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 15% 85%;
+    grid-template-rows: 15% 85%;
+  }
+  .cont .proj_photo > :nth-child(1) > p {
+    position: relative;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .cont .proj_photo > :nth-child(2) {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cont .proj_photo > :nth-child(2) section {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+    height: 100%;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) {
+    height: 90%;
+    width: 70%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 75% 25%;
+    grid-template-rows: 75% 25%;
+    background: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) > .proj_im1 {
+    background-image: url("/img/im1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) > .proj_im2 {
+    background-image: url("/img/im2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) > .proj_im3 {
+    background-image: url("/img/im3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) :nth-child(2) {
+    padding: 5px;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) :nth-child(2) > p {
+    margin: 0;
+    font-size: 15px;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) :nth-child(2) :nth-child(1) {
+    font-size: 14px;
+    font-weight: 800;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) :nth-child(2) :nth-child(2) {
+    font-size: 12px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .cont .proj_photo {
+    height: 600px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 20% 80%;
+    grid-template-rows: 20% 80%;
+  }
+  .cont .proj_photo > :nth-child(1) > p {
+    position: relative;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .cont .proj_photo > :nth-child(2) {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
+    grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .cont .proj_photo > :nth-child(2) section {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+    height: 100%;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) {
+    height: 60%;
+    width: 95%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 75% 25%;
+    grid-template-rows: 75% 25%;
+    background: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) > .proj_im1 {
+    background-image: url("/img/im1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) > .proj_im2 {
+    background-image: url("/img/im2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) > .proj_im3 {
+    background-image: url("/img/im3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) :nth-child(2) {
+    padding: 5px;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) :nth-child(2) > p {
+    margin: 0;
+    font-size: 15px;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) :nth-child(2) :nth-child(1) {
+    font-size: 14px;
+    font-weight: 800;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) :nth-child(2) :nth-child(2) {
+    font-size: 11px;
+    line-height: 13px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+@media only screen and (min-width: 1281px) {
+  .cont .proj_photo {
+    height: 600px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 15% 85%;
+    grid-template-rows: 15% 85%;
+  }
+  .cont .proj_photo > :nth-child(1) > p {
+    position: relative;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .cont .proj_photo > :nth-child(2) {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 30% 30%;
+    grid-template-columns: 30% 30% 30%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .cont .proj_photo > :nth-child(2) section {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+    height: 100%;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) {
+    height: 50%;
+    width: 90%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 75% 25%;
+    grid-template-rows: 75% 25%;
+    background: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) > .proj_im1 {
+    background-image: url("/img/im1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) > .proj_im2 {
+    background-image: url("/img/im2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) > .proj_im3 {
+    background-image: url("/img/im3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) :nth-child(2) {
+    padding: 5px;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) :nth-child(2) > p {
+    margin: 0;
+    font-size: 15px;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) :nth-child(2) :nth-child(1) {
+    font-size: 14px;
+    font-weight: 800;
+  }
+  .cont .proj_photo > :nth-child(2) section > :nth-child(1) :nth-child(2) :nth-child(2) {
+    font-size: 11px;
     overflow: hidden;
   }
 }
